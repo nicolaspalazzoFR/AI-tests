@@ -33,10 +33,12 @@ https://github.com/nicolaspalazzoFR/AI-tests/tree/main/MDR%20Data%20for%20SSF%20
 
 ### Once Deployed, Share This URL:
 ```
-https://nicolaspalazzofr.github.io/AI-tests/MDR%20Data%20for%20SSF%20App/Gear%20Characteristics%20new%20files/MDR%20codelists%20FOR%20ILLUSTRATION%20PURPOSES/gear-mockups-pwa/
+https://nicolaspalazzofr.github.io/AI-tests/
 ```
 
 **✅ Best option:** Client just clicks the link, no download needed!
+
+**Note:** PWA files are now in the root directory for easy GitHub Pages deployment!
 
 ---
 
