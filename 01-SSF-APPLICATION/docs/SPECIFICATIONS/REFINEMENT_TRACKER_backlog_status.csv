@@ -1,0 +1,115 @@
+Sheet Name,DASHBOARD - Main View
+Last Updated,=TODAY()
+Current Sprint,1
+Sessions Completed,2
+Sessions Remaining,13
+
+QUICK METRICS,,,,
+Total Stories,91,,Status,=IF(F2>=6.5,"🟢 On Track",IF(F2>=4,"🟡 At Risk","🔴 Critical"))
+To Refine (Open),84,,Risk Level,=IF(H8-G8>5,"🔴 HIGH",IF(H8-G8>2,"🟡 MEDIUM","🟢 LOW"))
+Already Refined (Ready),7,,
+Completed So Far,=SUM('Session Log'!F:F),,Current Velocity,=AVERAGE('Session Log'!F2:F3)
+Remaining,=C8-C11,,Target Velocity,6.5
+Progress %,=C11/C8*100,,Sessions Behind,=H8-G8
+,,,,Projected Completion,=IF(F2>0,"Sprint "&ROUNDUP(C10/F2/3+1,0),"TBD")
+
+SESSION SUMMARY (LAST 3),,,,
+Session,Sprint,Date,Stories Refined,Cumulative,Status
+=INDIRECT("'Session Log'!A"&MAX(2,COUNTA('Session Log'!A:A))),=INDIRECT("'Session Log'!B"&MAX(2,COUNTA('Session Log'!A:A))),=INDIRECT("'Session Log'!C"&MAX(2,COUNTA('Session Log'!A:A))),=INDIRECT("'Session Log'!F"&MAX(2,COUNTA('Session Log'!A:A))),=INDIRECT("'Session Log'!G"&MAX(2,COUNTA('Session Log'!A:A))),=INDIRECT("'Session Log'!I"&MAX(2,COUNTA('Session Log'!A:A)))
+=INDIRECT("'Session Log'!A"&MAX(2,COUNTA('Session Log'!A:A)-1)),=INDIRECT("'Session Log'!B"&MAX(2,COUNTA('Session Log'!A:A)-1)),=INDIRECT("'Session Log'!C"&MAX(2,COUNTA('Session Log'!A:A)-1)),=INDIRECT("'Session Log'!F"&MAX(2,COUNTA('Session Log'!A:A)-1)),=INDIRECT("'Session Log'!G"&MAX(2,COUNTA('Session Log'!A:A)-1)),=INDIRECT("'Session Log'!I"&MAX(2,COUNTA('Session Log'!A:A)-1))
+=INDIRECT("'Session Log'!A"&MAX(2,COUNTA('Session Log'!A:A)-2)),=INDIRECT("'Session Log'!B"&MAX(2,COUNTA('Session Log'!A:A)-2)),=INDIRECT("'Session Log'!C"&MAX(2,COUNTA('Session Log'!A:A)-2)),=INDIRECT("'Session Log'!F"&MAX(2,COUNTA('Session Log'!A:A)-2)),=INDIRECT("'Session Log'!G"&MAX(2,COUNTA('Session Log'!A:A)-2)),=INDIRECT("'Session Log'!I"&MAX(2,COUNTA('Session Log'!A:A)-2))
+
+WEEKLY REPORT (Auto-Generated - Copy & Paste),,,,
+Report Text,="REFINEMENT PROGRESS - Week of "&TEXT(TODAY(),"MMM DD, YYYY")&CHAR(10)&CHAR(10)&"✅ STORIES REFINED THIS WEEK"&CHAR(10)&"   • Sessions conducted: "&COUNTIFS('Session Log'!C:C,">="&TODAY()-7,'Session Log'!C:C,"<="&TODAY())&CHAR(10)&"   • Stories moved to Ready: "&SUMIFS('Session Log'!F:F,'Session Log'!C:C,">="&TODAY()-7,'Session Log'!C:C,"<="&TODAY())&CHAR(10)&"   • Cumulative progress: "&C11&"/84 ("&ROUND(C11/84*100,0)&"%)"&CHAR(10)&CHAR(10)&"📈 VELOCITY METRICS"&CHAR(10)&"   • Current velocity: "&ROUND(F2,1)&" stories/session"&CHAR(10)&"   • Target velocity: 6.5 stories/session"&CHAR(10)&"   • Status: "&F1&CHAR(10)&CHAR(10)&"📅 TIMELINE"&CHAR(10)&"   • Sessions remaining: "&C10&CHAR(10)&"   • Projected completion: "&F6&CHAR(10)&"   • On track for Sprint 5: "&IF(F6="Sprint 5","YES ✅",IF(F6="Sprint 6","ALMOST ⚠️","NO ❌")),,,,
+
+---END DASHBOARD---,,,,
+
+Sheet Name,SESSION LOG - Data Entry (Update This After Each Session)
+Session #,Sprint,Date,Day,Target Stories,Stories Refined (ENTER THIS),Cumulative,Remaining,Velocity,Status,Notes/Blockers
+1,1,2025-11-05,Tuesday,7,0,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),Learning session - understanding process
+2,1,2025-11-07,Thursday,7,1,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),Team alignment issues
+3,1,2025-11-12,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+4,2,2025-11-19,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+5,2,2025-11-21,Thursday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+6,2,2025-11-26,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+7,3,2025-12-03,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+8,3,2025-12-05,Thursday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+9,3,2025-12-10,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+10,4,2025-12-17,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+11,4,2025-12-19,Thursday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+12,4,2025-12-24,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+13,5,2026-01-07,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+14,5,2026-01-09,Thursday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+15,5,2026-01-14,Tuesday,7,,=SUM($F$2:F2),=84-G2,=F2,=IF(I2>=6.5,"🟢",IF(I2>=4,"🟡","🔴")),
+
+INSTRUCTIONS:,,,,,,,,,,
+"After each refinement session, update ONLY column F (Stories Refined) with the number of stories moved to ""Ready""",,,,,,,,,,
+Everything else calculates automatically!,,,,,,,,,,
+
+---END SESSION LOG---,,,,,,,,,,
+
+Sheet Name,BURNDOWN CHART DATA
+Session #,Sprint,Stories Remaining (Ideal),Stories Remaining (Actual),Variance,Status
+0,1,84,84,0,Start
+=INDIRECT("'Session Log'!A2"),=INDIRECT("'Session Log'!B2"),=84-ROW()+1*5.6,=INDIRECT("'Session Log'!H2"),=D2-C2,=IF(E2>=0,"🟢",IF(E2>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A3"),=INDIRECT("'Session Log'!B3"),=84-(ROW()-1)*5.6,=INDIRECT("'Session Log'!H3"),=D3-C3,=IF(E3>=0,"🟢",IF(E3>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A4"),=INDIRECT("'Session Log'!B4"),=84-(ROW()-2)*5.6,=INDIRECT("'Session Log'!H4"),=D4-C4,=IF(E4>=0,"🟢",IF(E4>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A5"),=INDIRECT("'Session Log'!B5"),=84-(ROW()-3)*5.6,=INDIRECT("'Session Log'!H5"),=D5-C5,=IF(E5>=0,"🟢",IF(E5>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A6"),=INDIRECT("'Session Log'!B6"),=84-(ROW()-4)*5.6,=INDIRECT("'Session Log'!H6"),=D6-C6,=IF(E6>=0,"🟢",IF(E6>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A7"),=INDIRECT("'Session Log'!B7"),=84-(ROW()-5)*5.6,=INDIRECT("'Session Log'!H7"),=D7-C7,=IF(E7>=0,"🟢",IF(E7>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A8"),=INDIRECT("'Session Log'!B8"),=84-(ROW()-6)*5.6,=INDIRECT("'Session Log'!H8"),=D8-C8,=IF(E8>=0,"🟢",IF(E8>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A9"),=INDIRECT("'Session Log'!B9"),=84-(ROW()-7)*5.6,=INDIRECT("'Session Log'!H9"),=D9-C9,=IF(E9>=0,"🟢",IF(E9>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A10"),=INDIRECT("'Session Log'!B10"),=84-(ROW()-8)*5.6,=INDIRECT("'Session Log'!H10"),=D10-C10,=IF(E10>=0,"🟢",IF(E10>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A11"),=INDIRECT("'Session Log'!B11"),=84-(ROW()-9)*5.6,=INDIRECT("'Session Log'!H11"),=D11-C11,=IF(E11>=0,"🟢",IF(E11>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A12"),=INDIRECT("'Session Log'!B12"),=84-(ROW()-10)*5.6,=INDIRECT("'Session Log'!H12"),=D12-C12,=IF(E12>=0,"🟢",IF(E12>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A13"),=INDIRECT("'Session Log'!B13"),=84-(ROW()-11)*5.6,=INDIRECT("'Session Log'!H13"),=D13-C13,=IF(E13>=0,"🟢",IF(E13>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A14"),=INDIRECT("'Session Log'!B14"),=84-(ROW()-12)*5.6,=INDIRECT("'Session Log'!H14"),=D14-C14,=IF(E14>=0,"🟢",IF(E14>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A15"),=INDIRECT("'Session Log'!B15"),=84-(ROW()-13)*5.6,=INDIRECT("'Session Log'!H15"),=D15-C15,=IF(E15>=0,"🟢",IF(E15>=-5,"🟡","🔴"))
+=INDIRECT("'Session Log'!A16"),=INDIRECT("'Session Log'!B16"),=84-(ROW()-14)*5.6,=INDIRECT("'Session Log'!H16"),=D16-C16,=IF(E16>=0,"🟢",IF(E16>=-5,"🟡","🔴"))
+
+Create Line Chart: X-axis = Session # | Y-axis = Stories Remaining Ideal (C) and Actual (D),,,,
+
+---END BURNDOWN---,,,,
+
+Sheet Name,BURNUP CHART DATA
+Session #,Sprint,Stories Refined (Target),Stories Refined (Actual),Total Scope,Gap
+0,1,0,0,84,0
+=INDIRECT("'Session Log'!A2"),=INDIRECT("'Session Log'!B2"),=(ROW()-1)*5.6,=INDIRECT("'Session Log'!G2"),84,=D2-C2
+=INDIRECT("'Session Log'!A3"),=INDIRECT("'Session Log'!B3"),=(ROW()-2)*5.6,=INDIRECT("'Session Log'!G3"),84,=D3-C3
+=INDIRECT("'Session Log'!A4"),=INDIRECT("'Session Log'!B4"),=(ROW()-3)*5.6,=INDIRECT("'Session Log'!G4"),84,=D4-C4
+=INDIRECT("'Session Log'!A5"),=INDIRECT("'Session Log'!B5"),=(ROW()-4)*5.6,=INDIRECT("'Session Log'!G5"),84,=D5-C5
+=INDIRECT("'Session Log'!A6"),=INDIRECT("'Session Log'!B6"),=(ROW()-5)*5.6,=INDIRECT("'Session Log'!G6"),84,=D6-C6
+=INDIRECT("'Session Log'!A7"),=INDIRECT("'Session Log'!B7"),=(ROW()-6)*5.6,=INDIRECT("'Session Log'!G7"),84,=D7-C7
+=INDIRECT("'Session Log'!A8"),=INDIRECT("'Session Log'!B8"),=(ROW()-7)*5.6,=INDIRECT("'Session Log'!G8"),84,=D8-C8
+=INDIRECT("'Session Log'!A9"),=INDIRECT("'Session Log'!B9"),=(ROW()-8)*5.6,=INDIRECT("'Session Log'!G9"),84,=D9-C9
+=INDIRECT("'Session Log'!A10"),=INDIRECT("'Session Log'!B10"),=(ROW()-9)*5.6,=INDIRECT("'Session Log'!G10"),84,=D10-C10
+=INDIRECT("'Session Log'!A11"),=INDIRECT("'Session Log'!B11"),=(ROW()-10)*5.6,=INDIRECT("'Session Log'!G11"),84,=D11-C11
+=INDIRECT("'Session Log'!A12"),=INDIRECT("'Session Log'!B12"),=(ROW()-11)*5.6,=INDIRECT("'Session Log'!G12"),84,=D12-C12
+=INDIRECT("'Session Log'!A13"),=INDIRECT("'Session Log'!B13"),=(ROW()-12)*5.6,=INDIRECT("'Session Log'!G13"),84,=D13-C13
+=INDIRECT("'Session Log'!A14"),=INDIRECT("'Session Log'!B14"),=(ROW()-13)*5.6,=INDIRECT("'Session Log'!G14"),84,=D14-C14
+=INDIRECT("'Session Log'!A15"),=INDIRECT("'Session Log'!B15"),=(ROW()-14)*5.6,=INDIRECT("'Session Log'!G15"),84,=D15-C15
+=INDIRECT("'Session Log'!A16"),=INDIRECT("'Session Log'!B16"),=(ROW()-15)*5.6,=INDIRECT("'Session Log'!G16"),84,=D16-C16
+
+Create Line Chart: X-axis = Session # | Y-axis = Target (C) Actual (D) and Total Scope (E - horizontal line),,,,
+
+---END BURNUP---,,,,
+
+Sheet Name,EPIC PROGRESS
+Epic ID,Epic Name,Total Stories,Open,Ready,Other,% Complete,Priority,Sprint Target
+SSF-123,Fishing Operations,14,13,1,0,=E2/C2*100,HIGH,1-2
+SSF-96,Login & Session,12,6,6,0,=E3/C3*100,CRITICAL,1
+SSF-122,Departure & Catches,10,10,0,0,=E4/C4*100,HIGH,2-3
+SSF-93,Gear Management,10,9,1,0,=E5/C5*100,MEDIUM,2-3
+SSF-95,Map & Location,8,6,2,0,=E6/C6*100,MEDIUM,3-4
+SSF-84,Technical Setup,8,3,5,0,=E7/C7*100,HIGH,1
+SSF-165,Backend Infrastructure,3,3,0,0,=E8/C8*100,MEDIUM,4-5
+SSF-166,Internationalization,4,3,1,0,=E9/C9*100,LOW,5
+SSF-162,Menu & Navigation,3,2,1,0,=E10/C10*100,MEDIUM,3
+SSF-94,Home & Widgets,5,4,1,0,=E11/C11*100,MEDIUM,2
+SSF-86,Tracking,6,1,5,0,=E12/C12*100,HIGH,1
+SSF-97,CI/CD & Deployment,5,5,0,0,=E13/C13*100,MEDIUM,4-5
+SSF-132,FMC Integration,1,1,0,0,=E14/C14*100,MEDIUM,4
+
+Create Bar Chart showing % Complete by Epic,,,,,,
+
+---END EPIC PROGRESS---,,,,,,

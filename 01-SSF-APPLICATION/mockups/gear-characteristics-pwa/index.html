@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#2563eb">
+    <title>Gear Characteristics Mockups</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Gear Characteristics</h1>
+            <p class="subtitle">Interactive Mockups - All 64 Gear Types</p>
+        </header>
+
+        <!-- Gear Type Selector -->
+        <section class="gear-selector">
+            <label for="gearSearch">Search Gear Type:</label>
+            <div class="search-wrapper">
+                <input 
+                    type="text" 
+                    id="gearSearch" 
+                    class="gear-search" 
+                    placeholder="Type to search by name or code..."
+                    autocomplete="off"
+                >
+                <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+                <div id="searchResults" class="search-results" style="display: none;"></div>
+            </div>
+        </section>
+
+        <!-- Form Container -->
+        <div id="formContainer" class="form-container" style="display: none;">
+            <!-- Gear Info -->
+            <div class="gear-info">
+                <h2 id="gearTitle"></h2>
+                <span id="gearCode" class="gear-code"></span>
+            </div>
+
+            <!-- Mandatory Fields -->
+            <div id="mandatorySection" class="field-section">
+                <h3 class="section-title mandatory">MANDATORY FIELDS</h3>
+                <div id="mandatoryFields" class="fields-container"></div>
+            </div>
+
+            <!-- Optional Fields -->
+            <div id="optionalSection" class="field-section" style="display: none;">
+                <h3 class="section-title optional">OPTIONAL FIELDS</h3>
+                <div id="optionalFields" class="fields-container"></div>
+            </div>
+
+            <!-- Info Note -->
+            <div class="info-note">
+                <svg class="info-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>* Required fields must be completed before saving</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="btn btn-secondary" onclick="resetForm()">Cancel</button>
+                <button class="btn btn-primary" onclick="saveGear()">Save Gear</button>
+            </div>
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state">
+            <svg class="empty-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+            </svg>
+            <p>Select a gear type above to view its characteristics form</p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Interactive mockup based on MDR IGv3 (EU Regulation 2025/2196)</p>
+            <p class="footer-small">Effective: January 10, 2026</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="gear-data.js"></script>
+    <script src="app.js"></script>
+    <script>
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>

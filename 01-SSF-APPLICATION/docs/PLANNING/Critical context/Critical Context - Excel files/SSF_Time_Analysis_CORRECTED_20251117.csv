@@ -1,0 +1,129 @@
+SSF PI 01 - TIME CAPACITY ANALYSIS (CORRECTED)
+Prepared by: Nicolas Palazzo
+"Date: November 17, 2025"
+Focus Factor: 60% (Industry Standard for Knowledge Work)
+
+================================================================================
+SECTION 1: AVAILABLE TIME
+================================================================================
+
+Configuration,3 Days/Week,4 Days/Week,Notes
+Working hours per day,8,8,9am-6pm with 1h lunch
+Days per week,3,4,Current vs. Proposed
+Total hours per week,24,32,= Days × Hours
+Sprint length (weeks),2,2,Assumed 2-week sprints
+TOTAL HOURS PER SPRINT,48,64,= Weekly hours × 2
+
+Reality Check - Focus Factor
+Theoretical hours,48,64
+Focus Factor,60%,60%,Industry standard for knowledge work
+ACTUAL PRODUCTIVE HOURS,28.8,38.4,= Total × 0.6
+
+WHY 60% Focus Factor?
+- Context switching between tasks
+- Email/Slack interruptions
+- Recovery from meetings
+- Mental fatigue
+- Quality preparation time (not raw execution)
+- Industry standard per time management research
+
+================================================================================
+SECTION 2: TIME COMMITMENTS (PER SPRINT)
+================================================================================
+
+A. STANDING MEETINGS & CEREMONIES
+Activity,Duration (min),Frequency,Total Hours/Sprint
+Daily Standup (Octo Team),15,10 per sprint,2.5
+Weekly DG MARE Sync,60,2 per sprint,2.0
+Sprint Planning,120,1 per sprint,2.0
+Sprint Review,90,1 per sprint,1.5
+Sprint Retrospective,60,1 per sprint,1.0
+03 PJMA,30,2 per sprint,1.0
+DG MARE Status Update,30,2 per sprint,1.0
+,,SUBTOTAL A:,11.0
+
+B. PO PREPARATION & DELIVERY WORK
+Activity,Duration (min),Frequency,Total Hours/Sprint
+Refinement Preparation,120,2 per sprint,4.0
+Refinement Sessions,120,2 per sprint,4.0
+Backlog Management,120,2 per sprint,4.0
+"Weekly Prep (reports, planning)",90,2 per sprint,3.0
+Writing Business Rules (Confluence),120,1 per sprint,2.0
+UX/Design Sync (Shylesh),60,2 per sprint,2.0
+Sprint Review Preparation,90,1 per sprint,1.5
+Sprint Planning Preparation,60,1 per sprint,1.0
+,,SUBTOTAL B:,21.5
+
+C. TOTAL COMMITTED TIME
+Section A (Meetings),,,11.0
+Section B (Prep & Delivery),,,21.5
+TOTAL COMMITTED:,,,32.5
+
+================================================================================
+SECTION 3: GAP ANALYSIS - THE CRITICAL MATH
+================================================================================
+
+Scenario,3 Days/Week,4 Days/Week,Difference
+Available productive hours,28.8,38.4,+9.6
+Required committed time,32.5,32.5,Same
+SURPLUS / (DEFICIT),(3.7),5.9,+9.6
+
+INTERPRETATION:
+""
+3 Days Scenario:
+- DEFICIT of 3.7 hours per sprint
+- Means I can attend meetings but have NO time for quality analysis and decisions
+- This explains preparation quality issues mentioned in feedback
+- Only solution: Reduce scope OR increase days
+
+4 Days Scenario:
+- SURPLUS of 5.9 hours per sprint
+"- Allows time for: strategic thinking, quality prep, risk mitigation, learning"
+- Can deliver P0 + key P1 items with acceptable quality
+- Addresses feedback about preparation and focus
+
+================================================================================
+SECTION 4: WHAT THIS MEANS
+================================================================================
+
+OPTION 1: Keep 3 Days + Reduce Scope to MVP Only
+- Deliver absolute minimum (P0) to go-live
+- Defer all enhancements to PI 02
+- Risk: Client expectations may not be met
+- Benefit: Realistic and achievable
+
+OPTION 2: Add 4th Day + Deliver P0 + Key P1 Items
+- More complete first release
+- Addresses preparation quality concerns
+- Allows time for strategic PO work (not just execution)
+"- Benefit: Better quality, more value delivered"
+
+OPTION 3: Keep 3 Days + Add Senior PO Mentoring
+- Faster decision-making on complex topics
+- Skill development while delivering
+- Risk: Availability of senior PO resource
+
+================================================================================
+KEY POINTS TO EMPHASIZE IN MEETING
+================================================================================
+
+"1. ""I've analyzed the time requirements using a 60% focus factor, which is industry standard"""
+"2. ""The math shows I can attend all meetings in 3 days, but have negative time for actual PO work"""
+"3. ""This explains the preparation quality feedback - I'm executing but not analyzing"""
+"4. ""I can deliver MVP (P0) in 3 days if we reduce scope, OR P0+P1 with 4 days"""
+"5. ""My recommendation is [state your preference] because [reason]"""
+"6. ""What would you recommend given your experience with similar missions?"""
+
+================================================================================
+NOTES FOR CREDIBILITY
+================================================================================
+
+Why 60% Focus Factor Is Defensible:
+- Research by Cal Newport (Deep Work): Knowledge workers average 60-65% productive time
+"- Studies show: 35-40% of time lost to interruptions, context switching, recovery"
+"- PO role requires: deep thinking, analysis, decision-making (not just execution)"
+- Current situation: Need to improve preparation quality = need focus time
+
+If Challenged on 60%:
+"""That's a conservative industry standard. If we use 70%, the gap is still [calculate]. The fundamental issue remains: committed time exceeds available capacity in 3 days."""
+

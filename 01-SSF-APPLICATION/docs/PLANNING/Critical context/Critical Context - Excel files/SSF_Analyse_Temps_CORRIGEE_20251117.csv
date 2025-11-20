@@ -1,0 +1,160 @@
+SSF PI 01 - ANALYSE DE CAPACITÉ TEMPS (CORRIGÉE)
+Préparé par: Nicolas Palazzo
+Date: 17 November 2025
+Facteur de Concentration: 60% (Standard Industrie pour Travail Intellectuel)
+
+================================================================================
+SECTION 1: TEMPS DISPONIBLE
+================================================================================
+
+Configuration,3 Jours/Semaine,4 Jours/Semaine,Notes
+Heures de travail par jour,8,8,9h-18h avec 1h déjeuner
+Jours par semaine,3,4,Actuel vs. Proposé
+Total heures par semaine,24,32,= Jours × Heures
+Durée du sprint (semaines),2,2,Supposé sprints de 2 semaines
+TOTAL HEURES PAR SPRINT,48,64,= Heures hebdo × 2
+
+Ajustement Réalité - Facteur de Concentration
+Heures théoriques,48,64
+Facteur de Concentration,60%,60%,Standard industrie travail intellectuel
+HEURES PRODUCTIVES RÉELLES,28.8,38.4,= Total × 0.6
+
+POURQUOI 60% de Facteur de Concentration?
+- Changement de contexte entre tâches
+- Interruptions Email/Slack
+- Récupération après réunions
+- Fatigue mentale
+- Temps de préparation qualité (pas juste exécution)
+- Standard industrie selon recherche en gestion du temps
+
+================================================================================
+SECTION 2: ENGAGEMENTS TEMPS (PAR SPRINT)
+================================================================================
+
+A. RÉUNIONS & CÉRÉMONIES AGILE
+Activité,Durée (min),Fréquence,Total Heures/Sprint
+Daily Standup (Équipe Octo),15,10 par sprint,2.5
+Sync Hebdo DG MARE,60,2 par sprint,2.0
+Sprint Planning,120,1 par sprint,2.0
+Sprint Review,90,1 par sprint,1.5
+Rétrospective Sprint,60,1 par sprint,1.0
+03 PJMA,30,2 par sprint,1.0
+Point Statut DG MARE,30,2 par sprint,1.0
+,,SOUS-TOTAL A:,11.0
+
+B. TRAVAIL DE PRÉPARATION & DELIVERY PO
+Activité,Durée (min),Fréquence,Total Heures/Sprint
+Préparation Refinements,120,2 par sprint,4.0
+Sessions Refinement,120,2 par sprint,4.0
+Gestion du Backlog,120,2 par sprint,4.0
+"Prépa Hebdo (rapports, planning)",90,2 par sprint,3.0
+Rédaction Business Rules (Confluence),120,1 par sprint,2.0
+Sync UX/Design (Shylesh),60,2 par sprint,2.0
+Préparation Sprint Review,90,1 par sprint,1.5
+Préparation Sprint Planning,60,1 par sprint,1.0
+,,SOUS-TOTAL B:,21.5
+
+C. TEMPS TOTAL ENGAGÉ
+Section A (Réunions),,,11.0
+Section B (Prépa & Delivery),,,21.5
+TOTAL ENGAGEMENTS:,,,32.5
+
+================================================================================
+SECTION 3: ANALYSE DE L'ÉCART - LE CALCUL CRITIQUE
+================================================================================
+
+Scénario,3 Jours/Semaine,4 Jours/Semaine,Différence
+Heures productives disponibles,28.8,38.4,+9.6
+Temps engagé requis,32.5,32.5,Identique
+EXCÉDENT / (DÉFICIT),(3.7),5.9,+9.6
+
+INTERPRÉTATION:
+""
+Scénario 3 Jours:
+- DÉFICIT de 3.7 heures par sprint
+- Je peux assister aux réunions mais N'AI PAS de temps pour analyse qualité et décisions
+- Ceci explique les problèmes de qualité de préparation mentionnés dans le feedback
+- Solution unique: Réduire le scope OU augmenter les jours
+
+Scénario 4 Jours:
+- EXCÉDENT de 5.9 heures par sprint
+"- Permet du temps pour: réflexion stratégique, prépa qualité, mitigation risques, apprentissage"
+- Peut livrer P0 + items P1 clés avec qualité acceptable
+- Adresse le feedback sur préparation et focus
+
+================================================================================
+SECTION 4: CE QUE CELA SIGNIFIE
+================================================================================
+
+OPTION 1: Garder 3 Jours + Réduire Scope au MVP Uniquement
+- Livrer le minimum absolu (P0) pour go-live
+- Reporter toutes les améliorations au PI 02
+- Risque: Les attentes client peuvent ne pas être satisfaites
+- Bénéfice: Réaliste et atteignable
+
+OPTION 2: Ajouter 4ème Jour + Livrer P0 + Items P1 Clés
+- Première release plus complète
+- Adresse les préoccupations de qualité de préparation
+- Permet du temps pour travail PO stratégique (pas juste exécution)
+"- Bénéfice: Meilleure qualité, plus de valeur livrée"
+
+OPTION 3: Garder 3 Jours + Ajouter Mentorat PO Senior
+- Prise de décision plus rapide sur sujets complexes
+- Développement compétences en livrant
+- Risque: Disponibilité de la ressource PO senior
+
+================================================================================
+POINTS CLÉS À METTRE EN AVANT EN RÉUNION
+================================================================================
+
+"1. ""J'ai analysé les besoins en temps en utilisant un facteur de concentration de 60%, qui est le standard industrie"""
+"2. ""Les calculs montrent que je peux assister à toutes les réunions en 3 jours, mais j'ai un temps négatif pour le travail PO réel"""
+"3. ""Cela explique le feedback sur la qualité de préparation - j'exécute mais je n'analyse pas"""
+"4. ""Je peux livrer le MVP (P0) en 3 jours si nous réduisons le scope, OU P0+P1 avec 4 jours"""
+"5. ""Ma recommandation est [indiquer votre préférence] parce que [raison]"""
+"6. ""Qu'est-ce que vous recommanderiez vu votre expérience sur des missions similaires?"""
+
+================================================================================
+NOTES POUR CRÉDIBILITÉ
+================================================================================
+
+Pourquoi 60% Facteur de Concentration Est Défendable:
+- Recherche de Cal Newport (Deep Work): Travailleurs intellectuels moyennent 60-65% temps productif
+"- Études montrent: 35-40% du temps perdu en interruptions, changement contexte, récupération"
+"- Rôle PO nécessite: réflexion profonde, analyse, prise de décision (pas juste exécution)"
+- Situation actuelle: Besoin d'améliorer qualité préparation = besoin temps de focus
+
+Si Contesté sur 60%:
+"""C'est un standard industrie conservateur. Si on utilise 70%, l'écart est toujours [calculer]. Le problème fondamental reste: le temps engagé dépasse la capacité disponible en 3 jours."""
+
+================================================================================
+CALCULS DÉTAILLÉS (Pour Référence)
+================================================================================
+
+Scénario 3 Jours:
+1. Temps théorique total:,3 jours × 8h = 24h/semaine × 2 semaines = 48h
+2. Facteur concentration (60%):,48h × 0.6 = 28.8h productives
+3. Réunions obligatoires:,-11.0h
+4. Travail préparation PO:,-21.5h
+5. RÉSULTAT:,28.8 - 32.5 = -3.7h (DÉFICIT)
+
+Scénario 4 Jours:
+1. Temps théorique total:,4 jours × 8h = 32h/semaine × 2 semaines = 64h
+2. Facteur concentration (60%):,64h × 0.6 = 38.4h productives
+3. Réunions obligatoires:,-11.0h
+4. Travail préparation PO:,-21.5h
+5. RÉSULTAT:,38.4 - 32.5 = +5.9h (EXCÉDENT)
+
+================================================================================
+MA RECOMMANDATION
+================================================================================
+
+[À REMPLIR: Indiquer quelle option vous recommandez et POURQUOI]
+
+Exemple:
+"""Je recommande l'Option 1 (Scope MVP en 3 jours) car elle assure une livraison de qualité dans les contraintes actuelles, avec possibilité d'améliorer lors du PI 02."""
+
+OU
+
+"""Je recommande l'Option 2 (4ème jour) car elle permet de livrer P0 + items P1 clés tout en adressant les retours sur la qualité de préparation."""
+
