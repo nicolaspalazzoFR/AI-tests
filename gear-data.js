@@ -8,13 +8,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Width of each dredge",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of dredges used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -22,13 +22,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -40,13 +40,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Width of each dredge",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of dredges used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -54,13 +54,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -72,13 +72,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Width of each dredge",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of dredges used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -86,13 +86,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -104,13 +104,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Width of each dredge",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of dredges used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -118,13 +118,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -136,25 +136,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Length underwater",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GM2",
-        "description": "Gear Dimension - Additional Length/Width",
+        "description": "Length aerial",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height underwater",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE2",
-        "description": "Height - Additional Dimension",
+        "description": "Height aerial",
         "type": "MEASURE",
         "unit": "MTR"
       }
@@ -162,25 +162,25 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -192,25 +192,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Maximum perimeter of each net/device",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of nets/devices used",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -218,13 +218,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -236,13 +236,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Maximum perimeter of each net/device",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of nets/devices used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -250,25 +250,25 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -280,13 +280,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Maximum perimeter of each net/device",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of nets/devices used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -294,25 +294,25 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -324,13 +324,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -338,13 +338,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Gear dimension",
         "type": "MEASURE",
         "unit": "MTR"
       },
@@ -356,13 +356,13 @@ const GEAR_DATA = {
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -374,37 +374,37 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of wings and leaders",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GM2",
-        "description": "Gear Dimension - Additional Length/Width",
+        "description": "Overall length of wings and leaders",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of wings",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE2",
-        "description": "Height - Additional Dimension",
+        "description": "Height of leaders",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -412,13 +412,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -430,7 +430,7 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of pots (e.g. creels) used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -438,13 +438,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -456,25 +456,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Length of frame",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of frame",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -482,13 +482,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -500,7 +500,7 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Total length",
         "type": "MEASURE",
         "unit": "MTR"
       },
@@ -514,13 +514,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -532,43 +532,43 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of wings and leaders",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GM2",
-        "description": "Gear Dimension - Additional Length/Width",
+        "description": "Overall length of wings and leaders",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of fyke nets used",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of wings",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE2",
-        "description": "Height - Additional Dimension",
+        "description": "Height of leaders",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -576,13 +576,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -594,25 +594,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -620,31 +620,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NL",
-        "description": "Nominal Length of One Net",
+        "description": "Nominal length of one net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "NN",
-        "description": "Number of Nets in Fleet",
+        "description": "Number of nets in fleet",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "QG",
-        "description": "Quantity of Gear on Board",
+        "description": "Quantity of gear on board",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -656,25 +656,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -682,31 +682,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NL",
-        "description": "Nominal Length of One Net",
+        "description": "Nominal length of one net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "NN",
-        "description": "Number of Nets in Fleet",
+        "description": "Number of nets in fleet",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "QG",
-        "description": "Quantity of Gear on Board",
+        "description": "Quantity of gear on board",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -718,25 +718,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -744,31 +744,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NL",
-        "description": "Nominal Length of One Net",
+        "description": "Nominal length of one net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "NN",
-        "description": "Number of Nets in Fleet",
+        "description": "Number of nets in fleet",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "QG",
-        "description": "Quantity of Gear on Board",
+        "description": "Quantity of gear on board",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -780,25 +780,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -806,31 +806,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NL",
-        "description": "Nominal Length of One Net",
+        "description": "Nominal length of one net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "NN",
-        "description": "Number of Nets in Fleet",
+        "description": "Number of nets in fleet",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "QG",
-        "description": "Quantity of Gear on Board",
+        "description": "Quantity of gear on board",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -842,25 +842,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -868,31 +868,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NL",
-        "description": "Nominal Length of One Net",
+        "description": "Nominal length of one net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "NN",
-        "description": "Number of Nets in Fleet",
+        "description": "Number of nets in fleet",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "QG",
-        "description": "Quantity of Gear on Board",
+        "description": "Quantity of gear on board",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -904,25 +904,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -930,31 +930,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NL",
-        "description": "Nominal Length of One Net",
+        "description": "Nominal length of one net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "NN",
-        "description": "Number of Nets in Fleet",
+        "description": "Number of nets in fleet",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "QG",
-        "description": "Quantity of Gear on Board",
+        "description": "Quantity of gear on board",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -966,25 +966,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -992,31 +992,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NL",
-        "description": "Nominal Length of One Net",
+        "description": "Nominal length of one net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "NN",
-        "description": "Number of Nets in Fleet",
+        "description": "Number of nets in fleet",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "QG",
-        "description": "Quantity of Gear on Board",
+        "description": "Quantity of gear on board",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1028,25 +1028,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1054,31 +1054,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NL",
-        "description": "Nominal Length of One Net",
+        "description": "Nominal length of one net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "NN",
-        "description": "Number of Nets in Fleet",
+        "description": "Number of nets in fleet",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "QG",
-        "description": "Quantity of Gear on Board",
+        "description": "Quantity of gear on board",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1090,13 +1090,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1109,13 +1109,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1128,25 +1128,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "(Maximum) height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1154,13 +1154,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1172,19 +1172,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Total number of hooks",
         "type": "QUANTITY",
         "unit": "hooks"
       },
       {
         "code": "HS",
-        "description": "Hook Size",
+        "description": "Size of hooks",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "NI",
-        "description": "Number of Lines",
+        "description": "Total number of lines",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1192,13 +1192,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1210,19 +1210,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Total number of hooks",
         "type": "QUANTITY",
         "unit": "hooks"
       },
       {
         "code": "HS",
-        "description": "Hook Size",
+        "description": "Size of hooks",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "NI",
-        "description": "Number of Lines",
+        "description": "Total number of lines",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1230,13 +1230,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1248,19 +1248,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Total number of hooks",
         "type": "QUANTITY",
         "unit": "hooks"
       },
       {
         "code": "HS",
-        "description": "Hook Size",
+        "description": "Size of hooks",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -1268,19 +1268,19 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NI",
-        "description": "Number of Lines",
+        "description": "Number of lines",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1292,19 +1292,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Total number of hooks",
         "type": "QUANTITY",
         "unit": "hooks"
       },
       {
         "code": "HS",
-        "description": "Hook Size",
+        "description": "Size of hooks",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -1312,19 +1312,19 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NI",
-        "description": "Number of Lines",
+        "description": "Number of lines",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1336,19 +1336,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Total number of hooks",
         "type": "QUANTITY",
         "unit": "hooks"
       },
       {
         "code": "HS",
-        "description": "Hook Size",
+        "description": "Size of hooks",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -1356,19 +1356,19 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "NI",
-        "description": "Number of Lines",
+        "description": "Number of lines",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1380,25 +1380,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Maximum perimeter of each net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of nets used",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1406,13 +1406,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1424,25 +1424,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Maximum perimeter of each net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of nets used",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1450,13 +1450,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1468,25 +1468,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Maximum perimeter of each net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of nets used",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1494,13 +1494,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1512,25 +1512,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Maximum perimeter of each net",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of nets used",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1538,13 +1538,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1556,19 +1556,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Total number of hooks",
         "type": "QUANTITY",
         "unit": "hooks"
       },
       {
         "code": "HS",
-        "description": "Hook Size",
+        "description": "Size of hooks",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "NI",
-        "description": "Number of Lines",
+        "description": "Total number of lines",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1576,13 +1576,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1594,19 +1594,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Total number of hooks",
         "type": "QUANTITY",
         "unit": "hooks"
       },
       {
         "code": "HS",
-        "description": "Hook Size",
+        "description": "Size of hooks",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "NI",
-        "description": "Number of Lines",
+        "description": "Total number of lines",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1614,13 +1614,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1632,19 +1632,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Total number of hooks",
         "type": "QUANTITY",
         "unit": "hooks"
       },
       {
         "code": "HS",
-        "description": "Hook Size",
+        "description": "Size of hooks",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "NI",
-        "description": "Number of Lines",
+        "description": "Total number of lines",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1652,13 +1652,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -1670,13 +1670,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1689,13 +1689,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1708,13 +1708,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1727,13 +1727,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1746,13 +1746,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1765,13 +1765,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1784,13 +1784,13 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Dimensions and description of each gear",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of the gears used",
         "type": "QUANTITY",
         "unit": "C62"
       }
@@ -1803,19 +1803,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1823,31 +1823,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -1859,19 +1859,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1879,31 +1879,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -1915,25 +1915,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening of each trawl",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of trawls simultaneously towed",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -1941,31 +1941,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -1977,25 +1977,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening of each trawl",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of trawls simultaneously towed",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2003,31 +2003,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -2039,25 +2039,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "(Maximum) height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2065,13 +2065,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2083,25 +2083,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "(Maximum) height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2109,13 +2109,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2127,25 +2127,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "(Maximum) height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2153,13 +2153,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2171,19 +2171,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2191,31 +2191,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -2227,19 +2227,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2247,31 +2247,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -2283,25 +2283,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Maximum height of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2309,13 +2309,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2327,25 +2327,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Maximum height of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2353,13 +2353,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2371,25 +2371,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Maximum height of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2397,13 +2397,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2415,25 +2415,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Maximum height of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2441,13 +2441,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2459,25 +2459,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Length of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "(Maximum) height of nets",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2485,13 +2485,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2503,25 +2503,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Maximum height of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2529,13 +2529,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2547,25 +2547,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Overall length of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "HE",
-        "description": "Height",
+        "description": "Maximum height of seine lines",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2573,13 +2573,13 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       }
@@ -2591,25 +2591,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2617,31 +2617,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -2653,25 +2653,25 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Beam length of each beam",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "GN",
-        "description": "Gear Dimension - Number",
+        "description": "Number of beams towed by the vessel",
         "type": "QUANTITY",
         "unit": "C62"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2679,31 +2679,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -2715,19 +2715,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2735,31 +2735,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
@@ -2771,19 +2771,19 @@ const GEAR_DATA = {
     "mandatory": [
       {
         "code": "GM",
-        "description": "Gear Dimension - Length/Width/Perimeter",
+        "description": "Perimeter of the opening",
         "type": "MEASURE",
         "unit": "MTR"
       },
       {
         "code": "ME",
-        "description": "Mesh Size",
+        "description": "Mesh size",
         "type": "MEASURE",
         "unit": "MMT"
       },
       {
         "code": "MS",
-        "description": "Mesh Type",
+        "description": "Mesh type",
         "type": "CODE",
         "unit": null
       }
@@ -2791,31 +2791,31 @@ const GEAR_DATA = {
     "optional": [
       {
         "code": "DA",
-        "description": "Devices & Gear Attachments",
+        "description": "Devices & gear attachments",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "GD",
-        "description": "Gear Description",
+        "description": "Gear description",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "MT",
-        "description": "Model of Trawl",
+        "description": "Model of trawl (optional)",
         "type": "TEXT",
         "unit": null
       },
       {
         "code": "TT",
-        "description": "Twine Type",
+        "description": "Twine type",
         "type": "CODE",
         "unit": null
       },
       {
         "code": "TW",
-        "description": "Twine Thickness",
+        "description": "Twine thickness",
         "type": "MEASURE",
         "unit": "MMT"
       }
